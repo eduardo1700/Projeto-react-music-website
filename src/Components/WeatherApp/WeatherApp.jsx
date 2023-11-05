@@ -10,7 +10,13 @@ import wind from "../Images/wind.png"
 import humidity from "../Images/humidity.png"
 export default function WeatherApp() {
   return (
-    <div>
+    <div className="container">
+      <div className='top-bar'>
+        <input type="text" className='cityInput' placeholder='Search'/>
+        <div className='search-icon'>
+          <img src={search} />
+        </div>
+      </div>
 
     </div>
   )
